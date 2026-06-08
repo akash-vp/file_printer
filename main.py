@@ -6,8 +6,5 @@ with open("sample.txt") as file:
 
 content_capitalized = content.upper();
 print(content_capitalized);
-print("Checking revert command in git");
 
-print("how do i print random humber");
-import random
-print(random.randint(1, 100));
+print("coonect to repository");

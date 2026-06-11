@@ -1,14 +1,12 @@
 with open("sample.txt") as file:
     content = file.read();
 
+with open('user_file.txt','w') as file:
+    file.write('user content');
 
-#print(content);
+print('File content:');
+print(content); 
+print('Done');
 
-content_capitalized = content.upper();
-print(content_capitalized);
 
-print("coonect to repository");
 
-import random
-a=random.choice([1,2,3,4,5]);
-print(a);
